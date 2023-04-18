@@ -1,0 +1,266 @@
+:root {
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-00d8bd: #00d8bd;
+}
+p{
+color: var(--unnamed-color-ffffff);
+font: normal normal 300 20px/24px Corbel;}
+a{
+  text-decoration: none;
+  color: var(--unnamed-color-00d8bd);
+}
+.bg-image{
+  background-image: url(../img/bg-1.png);
+  background-position: center center;
+  background-size: cover;
+
+
+
+
+}
+@font-face {
+  font-family: Atlantic Cruise;
+  src: url('../text/Atlantic_Cruise-Demo.ttf');
+}
+@font-face {
+  font-family:Corbel;
+  src: url('../font/CORBEL.TTF');
+  src: url('../font/Corbel\ Bold.ttf');
+  src: url('../font/Corbel\ Bold\ Italic.ttf');
+  /* src: url('../font/Corbel\ Italic.ttf'); */
+  src: url('../font/CORBELB.TTF');
+  /* src: url('../font/corbeli.ttf'); */
+  /* src: url('../font/corbelz.ttf'); */
+}
+body {
+  font-family: Atlantic Cruise;
+  background-color: #01090F;
+}
+.mobil-menu{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/Mask_Group_97.svg);
+  /* height: 652px; */
+  display: flex;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  display: none;
+  position: absolute;
+
+
+}
+.btn-border{
+  border: 2px solid #12a5a3;
+  
+
+}
+.NavBar {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/Group 635.svg');
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+/***** Section *****/
+
+/***** End Section *****/
+.hero {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+}
+.hero li a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: normal normal normal 22px/23px Atlantic Cruise;
+}
+.btn-book,
+.btn-contact {
+  background: transparent
+    linear-gradient(204deg, #12a5a3 0%, #0f8c8a 41%, #095756 91%, #095352 100%)
+    0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 200px;
+  height: 44px;
+  border: none;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 20px/22px Atlantic Cruise;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+.btn-contact {
+  background: none;
+  border: 2px solid #12a5a3;
+}
+/***** main *****/
+.about,
+.artists ,.tattoo {
+  background-image: url(../img/bg-1.png);
+  background-position: center center;
+  background-size: cover;
+}
+.about-content p {
+  width: 50%;
+}
+.titel {
+  text-align: center;
+}
+.titel h2  {
+  color: #eeb902;
+}
+.Celebrating p {
+  height: 53px;
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 40px/44px Atlantic Cruise;
+  letter-spacing: 0px;
+}
+.celebrating-number {
+  color: #eeb902;
+}
+.artists-title {
+  color: #eeb902;
+  font-size: 4rem;
+}
+.tony-img {
+  width: 271px;
+  height: 352px;
+}
+.tony-title {
+  color: #eeb902;
+  padding: 30px;
+  font-size: 2.5rem;
+}
+.artists-pragrapg {
+  width: 310px;
+  height: 122px;
+  color: var(--unnamed-color-ffffff);
+  font-size: 1.2rem;
+}
+.artists-pragrapg a {
+  text-decoration: none;
+  color: var(--unnamed-color-00d8bd);
+}
+.comment{
+  width: 50%;
+  margin: auto;
+  font-size: 1.3rem;
+}
+.carsoul-btn{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+
+}
+.tattoo-title{
+  color: #eeb902;
+  padding: 30px;
+  font-size: 2.5rem;
+
+
+}
+.tattoo p{
+width: 50%;
+margin: auto;
+text-align: center;
+}
+.footer{
+  background-image: url(../img/Mask_Group_97.svg);
+  /* height: 652px; */
+  display: flex;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+
+}
+.footer-menu {
+  list-style: none;
+}
+.footer-menu  li{
+  margin: 20px 0px;
+}
+
+.footer-menu  li a{
+  color: var(--unnamed-color-ffffff);
+  font-size: 30px;
+}
+.free-parikig{
+  color: #eeb902;
+}
+/***** contact-page *****/
+.contact-header{
+  background-image: url(../img/Mask_Group_80.svg);
+  /* width: 100vw; */
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+.contact-header h1{
+  font-size: 4rem;
+}
+.address{
+}
+
+/***** End contact-page *****/
+/***** artists-page *****/
+.artists-header{
+  background-image: url(../img/Mask_Group_105.svg);
+  /* width: 100vw; */
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+.artists-header h1{
+  font-size: 4rem;
+}
+.btn-about{
+  width: 208px;
+height: 44px;
+/* UI Properties */
+border: 2px solid #12A5A3;
+border-radius: 5px;
+background-color: inherit;
+color: #ffffff;
+font-size: 18px;
+}
+
+
+
+
+/***** End artists-page *****/
+
+/***** End  *****/
+/***** mobil- style  *****/
+@media screen and (max-width: 600px) {
+  .about-content p {
+    width: 100%;
+  }
+  .hero{
+    display: none;
+  }
+  .tony-img {
+    width: 100%;
+  }
+  .comment{
+    width: 100%;
+    margin: auto;
+  }
+  .contact-header , .artists-header{
+    height: 50vh;
+    padding-bottom: 100px;
+  }
+  
+}
+
+/***** End mobil- style  *****/
