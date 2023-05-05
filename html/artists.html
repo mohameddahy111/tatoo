@@ -80,14 +80,12 @@
     </header>
     <main>
       <section class="py-5">
-        <div class="row container ">
-          <div
-            class="col-12 col-md-6 "
-          >
+        <div class="row container">
+          <div class="col-12 col-md-6">
             <img src="../img/tony-2.png" alt="" class="shadow w-100" />
           </div>
           <div
-            class="col-12 col-md-6  d-flex flex-column justify-content-center align-items-center align-items-md-start"
+            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start"
           >
             <h4 class="tony-title">Tony Baris</h4>
             <div class=" ">
@@ -121,14 +119,17 @@
               <div
                 class="d-flex flex-column justify-content-center gap-2 align-items-start pt-3"
               >
-                <button class="btn-about">
+                <a
+                  class="btn-about d-flex justify-content-center align-items-center"
+                  href="https://www.instagram.com/london.gentleman/"
+                >
                   <img src="../logo/Group 513.svg" alt="instagram-logo" />
                   <span class="ps-2"> instagram portfolio </span>
-                </button>
-                <button class="btn-about">
+                </a>
+                <a class="btn-about d-flex justify-content-center align-items-center" href="">
                   <img src="../logo/Icon zocial-email.svg" alt="email" />
                   <span class="p-2"> book an appointment </span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -136,26 +137,7 @@
       </section>
       <section class="py-5">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-4 p-1">
-              <img src="../img/ar-11.png" alt="" width="100%" />
-            </div>
-            <div class="col-12 col-md-4 p-1">
-              <img src="../img/ar-2.png" alt="" width="100%" />
-            </div>
-            <div class="col-12 col-md-4 p-1">
-              <img src="../img/ar-3.png" alt="" width="100%" />
-            </div>
-            <div class="col-12 col-md-4 p-1">
-              <img src="../img/ar-4.png" alt="" width="100%" />
-            </div>
-            <div class="col-12 col-md-4 p-1">
-              <img src="../img/ar-5.png" alt="" width="100%" />
-            </div>
-            <div class="col-12 col-md-4 p-1">
-              <img src="../img/ar-6.png" alt="" width="100%" />
-            </div>
-          </div>
+          <div class="row" id="instafeed"></div>
         </div>
       </section>
     </main>
@@ -171,7 +153,7 @@
             />
             <div class="py-3 text-center text-md-end">
               <img src="../logo/Group 513.svg" alt="instagram-logo" />
-              <a href="http://">
+              <a href="https://www.instagram.com/london.gentleman/">
                 <span class="ps-2"> @cosmicseatattoo</span>
               </a>
             </div>
@@ -213,6 +195,8 @@
       integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript" src="../js/instafeed.min.js"></script>
 
     <script src="../js/js.js"></script>
   </body>

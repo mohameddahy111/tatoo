@@ -234,8 +234,12 @@ background-color: inherit;
 color: #ffffff;
 font-size: 18px;
 }
+ #instafeed img{
+  width: 100%;
+  height: 500px;
+} 
 
-
+ 
 
 
 /***** End artists-page *****/
